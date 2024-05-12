@@ -22,6 +22,7 @@ if m~=n, error('A must be a square matrix'); end
 
 C = A ; 
 for i = 1:n, C(i, i) = 0 ; x(i) = 0 ; end % 초기값 모두 0으로 가정.
-
-
+%{
+    git test
+%}
 end
